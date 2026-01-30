@@ -1,1 +1,1 @@
-https://mosharrafhossen.github.io/Class-Routine/
+https://mosharrafhossen.github.io/class-routine/
