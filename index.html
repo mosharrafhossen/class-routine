@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School / College Routine</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="top-bar">
+    <h1>📚 Class Routine</h1>
+    <button onclick="toggleDark()">🌙 Dark Mode</button>
+  </div>
+
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>1st Period<br>09:00 – 09:45</th>
+      <th>2nd Period<br>09:45 – 10:30</th>
+      <th>3rd Period<br>10:45 – 11:30</th>
+      <th>4th Period<br>11:30 – 12:15</th>
+    </tr>
+
+    <tr id="mon">
+      <td>Monday</td>
+      <td data-label="1st Period">Bangla</td>
+      <td data-label="2nd Period">Mathematics</td>
+      <td data-label="3rd Period">English</td>
+      <td data-label="4th Period">Science</td>
+    </tr>
+
+    <tr id="tue">
+      <td>Tuesday</td>
+      <td data-label="1st Period">Mathematics</td>
+      <td data-label="2nd Period">Bangla</td>
+      <td data-label="3rd Period">History</td>
+      <td data-label="4th Period">English</td>
+    </tr>
+
+    <tr id="wed">
+      <td>Wednesday</td>
+      <td data-label="1st Period">Science</td>
+      <td data-label="2nd Period">Mathematics</td>
+      <td data-label="3rd Period">English</td>
+      <td data-label="4th Period">Geography</td>
+    </tr>
+
+    <tr id="thu">
+      <td>Thursday</td>
+      <td data-label="1st Period">Bangla</td>
+      <td data-label="2nd Period">History</td>
+      <td data-label="3rd Period">Mathematics</td>
+      <td data-label="4th Period">Religion</td>
+    </tr>
+
+    <tr id="fri">
+      <td>Friday</td>
+      <td data-label="1st Period">Bangla</td>
+      <td data-label="2nd Period">Mathematics</td>
+      <td data-label="3rd Period">English</td>
+      <td data-label="4th Period">Physical Education</td>
+    </tr>
+  </table>
+</div>
+
+<script src="js/custom.js"></script>
+
+</body>
+</html>
